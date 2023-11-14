@@ -79,7 +79,8 @@ body{
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #68ACE5;
+    background-color: #68ACE5; 
+    font-style: italic;
 }
 
 .dropdown-content {
@@ -106,4 +107,19 @@ body{
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+blockquote {
+    margin: 0;
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote::before {
+    content: '\201C';
+}
+
+blockquote::after {
+    content: '\201D';
 }
